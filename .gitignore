@@ -1,0 +1,32 @@
+#Arquivos e pastas do PyCharm/IDE
+
+.idea/
+*.iml
+
+#Arquivos temporários e de build do Python
+
+pycache/ *.pyc *.pyo *.pyd *.egg-info/ dist/ build/ *.egg
+
+#Ambientes virtuais Python
+
+venv/ env/ .env
+
+##Arquivos gerados pelo gRPC
+
+microservice/sensor_pb2.py microservice/sensor_pb2_grpc.py
+
+#Arquivos de log e temporários
+
+*.log *.tmp *.swp
+
+#Pastas e arquivos do Docker
+
+docker-compose.yml.bak .dockerignore Dockerfile..docker/
+
+#Arquivos de cache e outros
+
+*.cache *.DS_Store *.bak
+
+#Arquivos de teste e cobertura
+
+coverage/ .coverage *.cover *.xml *.html
